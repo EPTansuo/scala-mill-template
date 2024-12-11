@@ -1,9 +1,16 @@
 # Example mill project that compiles using Scala 3
 
+This project is forked from [https://github.com/scala/scala3-mill-example-project](https://github.com/scala/scala3-mill-example-project).
+
+I add a `Makefile` in this respository.
+
+
 ## Usage
 
 This is a normal mill project. You can compile code with `mill examples.compile` and run it
 with `mill examples.run`, `mill -i examples.console` will start a Scala 3 REPL.
+
+You can also use `make`. You can compile the code with  `make` and run it with `make run`. 
 
 ### IDE support
 
