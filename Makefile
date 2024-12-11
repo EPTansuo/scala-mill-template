@@ -1,6 +1,6 @@
 TARGET=examples
 
-SRCS=$(shell find ./examples -name "*.scala")
+SRCS=$(shell find $(TARGET) -name "*.scala")
 
 MILL=./mill
 
